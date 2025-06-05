@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from '../Statistics/Statistics.module.css';
 import { RandomColor } from './RandomColor';
 
-export default function Statistics({ title, stats }) {
+export function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}

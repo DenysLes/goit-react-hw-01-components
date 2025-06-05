@@ -1,6 +1,7 @@
-import css from '../Profile/Profile.module.css';
+// import css from 'Profile.modules.css';
+import css from '../Profile/Profile.modules.css';
 
-export default function Profile({ username, location, tag, avatar, stats }) {
+export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={css.wrapper}>
       <div className={css.profile}>
@@ -28,4 +29,4 @@ export default function Profile({ username, location, tag, avatar, stats }) {
       </div>
     </div>
   );
-}
+};
